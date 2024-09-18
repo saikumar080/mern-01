@@ -28,9 +28,9 @@ class App extends React.Component{
         <LifeCycleMethods />} */}
        
         {/* <ImageGallery /> */}
-       <FCOne />
-        <CounterFn />
-      
+       {/* <FCOne /> */}
+        {/* <CounterFn /> */}
+        <Counter />
 
       </div>
         

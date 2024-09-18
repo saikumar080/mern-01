@@ -8,11 +8,11 @@ function Counter(){
             if(prevState>=10){
                 return 0;
             }else{
-                return prevState +1;
+                return prevState + 1;
             }
         });
     };
-    const handleDecrement=()=>{
+    const handleDecrement=() => {
         console.log("handle Decrement!!!");
         updateCounter((prevState)=>{
             if(prevState === 0){
