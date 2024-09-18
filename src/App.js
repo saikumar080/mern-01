@@ -29,8 +29,8 @@ class App extends React.Component{
        
         {/* <ImageGallery /> */}
        {/* <FCOne /> */}
-        {/* <CounterFn /> */}
-        <Counter />
+        <CounterFn />
+        {/* <Counter /> */}
 
       </div>
         

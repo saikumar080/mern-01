@@ -1,10 +1,17 @@
 import React,{useState} from 'react';
+import './CounterFn.css';
 import Button from './Button';
 import Display from './Display';
 function CounterFn(){
     const [counter,setCounter]=useState(0);
     const increment=()=>{setCounter((prev)=>prev + 1)};
-    const decrement=()=>{setCounter((prev)=> prev - 1)};
+    const decrement=()=>{setCounter((prev)=> {
+        if(prev === 0){
+            return 0;
+        }else{
+            return prev - 1;
+        }
+        })};
 
 
     return(
