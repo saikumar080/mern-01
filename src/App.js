@@ -6,6 +6,7 @@ import ImageGallery from './Session-03/ImageGallery';
 import FCOne from './Session-03/FCOne';
 import Counter from './FunctionCounter/Counter';
 import CounterFn from './Session-04/Activity-01/CounterFn';
+import Book from './Session-04/TakeHome-Book-Appointment/Book';
 
 
 
@@ -29,8 +30,9 @@ class App extends React.Component{
        
         {/* <ImageGallery /> */}
        {/* <FCOne /> */}
-        <CounterFn />
+        {/* <CounterFn /> */}
         {/* <Counter /> */}
+        <Book />
 
       </div>
         
