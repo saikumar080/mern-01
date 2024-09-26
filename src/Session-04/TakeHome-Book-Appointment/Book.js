@@ -121,6 +121,7 @@ const Book=()=>{
                   </option>
               </select>
              </div>
+             <hr />
           {/* ------While selecting the Doctor!!!!-------- */}
                 {doctorSelected && !appointmentSubmitted &&(
                   <div className="form-handle">
