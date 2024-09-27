@@ -7,6 +7,8 @@ import FCOne from './Session-03/FCOne';
 import Counter from './FunctionCounter/Counter';
 import CounterFn from './Session-04/Activity-01/CounterFn';
 import Book from './Session-04/TakeHome-Book-Appointment/Book';
+import FCUseEffect from './Session-05/FCUseEffect';
+import FCTwo from './Session-05/FCTwo';
 
 
 
@@ -32,7 +34,15 @@ class App extends React.Component{
        {/* <FCOne /> */}
         {/* <CounterFn /> */}
         {/* <Counter /> */}
-        <Book />
+        {/* <Book /> */}
+        
+        {/* <button 
+        onClick={()=>this.setState((prev)=>
+          ({showComponent:!prev.showComponent,}))}>Show/Hide Component
+          </button>
+        {this.state.showComponent && < FCUseEffect />} */}
+
+        <FCTwo />
 
       </div>
         
