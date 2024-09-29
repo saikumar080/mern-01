@@ -40,7 +40,7 @@ class App extends React.Component{
         onClick={()=>this.setState((prev)=>
           ({showComponent:!prev.showComponent,}))}>Show/Hide Component
           </button>
-        {this.state.showComponent && < FCUseEffect />} */}
+        {this.state.showComponent ? < FCUseEffect />: null} */}
 
         <FCTwo />
 
