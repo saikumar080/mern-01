@@ -22,15 +22,39 @@ class App extends React.Component{
   render(){
     return(
       <div>
-        {/* <button 
+
+        {/* -------------------THis is session-02 File for Counter Display
+        =>THis component is used to display the counter value and increment and decrement the counter value
+        -=> THis code is from Class Based- Component----------------
+        ----------------- */}
+        {/* <Counter /> */}
+          {/* ================ This file is from session-03 ImageGallery which can render both file(<Albums/> , <Photos/>) */}
+                    {/* {<ImageGallery /> } */}
+
+
+
+        {/* -------------------THis is session-03 File for LifeCycleMethods
+        =>THis component is used to display the counter value and increment and decrement the counter value
+        -=> THis code is from Class Based- Component----------------
+        ----------------- */}
+        <LifeCycleMethods />
+
+
+          {/* -----------------This  */}
+          <button 
         onClick={()=>this.setState((prev)=>
           ({showComponent:!prev.showComponent}),console.log("Component Did Update from Show/Hide Component:: ",this.state.showComponent))}>Show/Hide Component
-          </button> */}
+          </button>
+
+
           {/* Here if this.state.component is true then only it will excute LifeCycleMethod component*/}
-      {/* {this.state.showComponent &&
-        <LifeCycleMethods />} */}
+                  {this.state.showComponent &&
+                  <LifeCycleMethods />}
+
+
+                
        
-        {/* <ImageGallery /> */}
+        
        {/* <FCOne /> */}
         {/* <CounterFn /> */}
         {/* <Counter /> */}
@@ -42,7 +66,7 @@ class App extends React.Component{
           </button>
         {this.state.showComponent ? < FCUseEffect />: null} */}
 
-        <FCTwo />
+        {/* <FCTwo /> */}
 
       </div>
         
