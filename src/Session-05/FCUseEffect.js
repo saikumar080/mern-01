@@ -4,7 +4,7 @@ function FCUseEffect(){
     const [IncrementCount,setCountIncrement]=useState(0);
     const [DecrementCount,setCountDecrement]=useState(0);
     //----------condtional rendering--------
-    const[isLoggedIn,setIsLoggedIn]=useState(false);
+    // const[isLoggedIn,setIsLoggedIn]=useState(false);
     useEffect(()=>{
         console.log(`Hello, I am useEffect`);
         return ()=>{

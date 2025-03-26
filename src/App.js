@@ -9,6 +9,8 @@ import CounterFn from './Session-04/Activity-01/CounterFn';
 import Book from './Session-04/TakeHome-Book-Appointment/Book';
 import FCUseEffect from './Session-05/FCUseEffect';
 import FCTwo from './Session-05/FCTwo';
+import Ref from './Session-06/Ref';
+import Debouncing from './Session-06/Debouncing';
 
 
 
@@ -37,19 +39,19 @@ class App extends React.Component{
         =>THis component is used to display the counter value and increment and decrement the counter value
         -=> THis code is from Class Based- Component----------------
         ----------------- */}
-        <LifeCycleMethods />
+        {/* <LifeCycleMethods /> */}
 
 
           {/* -----------------This  */}
-          <button 
+          {/* <button 
         onClick={()=>this.setState((prev)=>
-          ({showComponent:!prev.showComponent}),console.log("Component Did Update from Show/Hide Component:: ",this.state.showComponent))}>Show/Hide Component
-          </button>
+          ({showComponent:!prev.showComponent}),console.log("Component Did Update from Show/Hide Component:: ",this.state.showComponent))}>{this.showComponent ? "showComponent" : "hideComponent"}
+          </button> */}
 
 
           {/* Here if this.state.component is true then only it will excute LifeCycleMethod component*/}
-                  {this.state.showComponent &&
-                  <LifeCycleMethods />}
+                  {/* {this.state.showComponent &&
+                  <LifeCycleMethods />} */}
 
 
                 
@@ -64,9 +66,18 @@ class App extends React.Component{
         onClick={()=>this.setState((prev)=>
           ({showComponent:!prev.showComponent,}))}>Show/Hide Component
           </button>
-        {this.state.showComponent ? < FCUseEffect />: null} */}
+        {this.state.showComponent ? < FCUseEffect />: null}
+
+        <FCTwo /> */}
+
 
         {/* <FCTwo /> */}
+
+
+        {/* ===================         Session-06        =================== */}
+        {/* <Ref /> */}
+
+        <Debouncing />
 
       </div>
         
