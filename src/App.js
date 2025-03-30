@@ -11,6 +11,7 @@ import FCUseEffect from './Session-05/FCUseEffect';
 import FCTwo from './Session-05/FCTwo';
 import Ref from './Session-06/Ref';
 import Debouncing from './Session-06/Debouncing';
+import Home from './Session-07/ImageGallery/Home';
 
 
 
@@ -77,7 +78,10 @@ class App extends React.Component{
         {/* ===================         Session-06        =================== */}
         {/* <Ref /> */}
 
-        <Debouncing />
+        {/* <Debouncing /> */}
+
+        {/* ============   Session-07               ============== */}
+        <Home />
 
       </div>
         
