@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 
 import LifeCycleMethods from './Session-03/LifeCycleMethods';
@@ -12,6 +12,8 @@ import FCTwo from './Session-05/FCTwo';
 import Ref from './Session-06/Ref';
 import Debouncing from './Session-06/Debouncing';
 import Home from './Session-07/ImageGallery/Home';
+import Fragments from './Session-08/Fragment';
+import Callback from './Session-08/Callback';
 
 
 
@@ -24,7 +26,7 @@ class App extends React.Component{
   }
   render(){
     return(
-      <div>
+      <>
 
         {/* -------------------THis is session-02 File for Counter Display
         =>THis component is used to display the counter value and increment and decrement the counter value
@@ -81,9 +83,14 @@ class App extends React.Component{
         {/* <Debouncing /> */}
 
         {/* ============   Session-07               ============== */}
-        <Home />
+        {/* <Home /> */}
 
-      </div>
+        {/* ============ Session-08    =========== */}
+        {/* <Fragments /> */}
+
+        <Callback />
+
+      </>
         
       
     )
